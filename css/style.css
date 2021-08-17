@@ -10,7 +10,7 @@
     max-width: 1000px;
     margin: auto;
 }
-
+/*header*/
 header{
     display: flex;
     align-items: center;
@@ -31,7 +31,7 @@ div img{
     width: 100%;
 }
 
-.container h2{
+.menu h2{
     font-weight: none;
     font-size: 35px;
     color: #fff;
@@ -139,4 +139,132 @@ div img{
 
 .apresentacao .texto-apresentacao p{
     margin-bottom: 30px;
+}
+
+/*icones*/
+.container-externo{
+    width: 100%;
+    background-color: #122a57;
+}
+
+#servicos{
+    flex-direction: column;
+    padding: 100px 0;
+}
+
+#servicos h2{
+    font-weight: none;
+    font-size: 35px;
+    color: #fff;
+}
+
+.container-icons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container-icons > .box-icon{
+    padding: 20px;
+    text-align: center;
+}
+
+.container-icons > .box-icon > p{
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+}
+
+.container-icons > .box-icon > a{
+    height: 50px;
+    line-height: 50px;
+    width:220px;
+    text-align: center;
+    margin-top: 30px;
+    padding: 5px 10px;
+    border-radius: 30px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #122a57;
+    background-color: white;
+}
+
+/*planos*/
+#planos{
+    flex-direction: column;
+    min-height: 100vh;
+    padding-top: 50px;
+}
+
+#planos h2{
+    font-size: 32px;
+
+}
+
+#planos li{
+    list-style: none;
+}
+
+.container-planos{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.box-planos{
+    flex: 1;
+    max-width: 240px;
+    padding: 20px;
+    border: 4px solid #122a57;
+}
+
+.box-planos > h3{
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.box-planos > h3::after{
+    content: "";
+    height: 3px;
+    width: 100%;
+    margin: 40px 0 30px 0;
+    background-color: #122a57;
+}
+
+.box-planos > ul{
+    display: flex;
+    flex-direction: column;
+    list-style: square;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+.box-planos > ul > li{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.box-planos > ul > li::before{
+    content: "";
+    height: 8px;
+    width: 8px;
+    margin-right: 5px;
+    background-color: #122a57;
+}
+
+.box-planos > a{
+    height: 50px;
+    line-height: 50px;
+    display: block;
+    width: 220px;
+    text-align: center;
+    margin: 20px auto;
+    border-radius: 30px;
+    background-color: #122a57;
+    color: white;
 }
