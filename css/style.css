@@ -193,7 +193,7 @@ div img{
 /*planos*/
 #planos{
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 90vh;
     padding-top: 50px;
 }
 
@@ -266,5 +266,19 @@ div img{
     margin: 20px auto;
     border-radius: 30px;
     background-color: #122a57;
+    color: white;
+}
+
+/*footer*/
+footer{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    background-color: #122a57;
+}
+
+.footer{
+    justify-content: space-between;
     color: white;
 }
